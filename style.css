@@ -127,8 +127,21 @@ p {
     width: 240px;
     height: 48px;
     overflow: hidden;
+
+    margin-bottom: 40px;
 }
 
 .star-position{
-    
+    width: 240px;
+}
+
+.member-wrapper{
+    display: flex;
+}
+
+.member{
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
 }
