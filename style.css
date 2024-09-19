@@ -25,7 +25,6 @@ p {
 .wrapper {
     margin: auto;
     max-width: 1200px;
-
 }
 
 /* header */
@@ -97,7 +96,7 @@ p {
 .side-bar {
     flex-grow: 2;
     flex-basis: 0;
-    padding:100px;
+    padding: 100px;
 }
 
 .side-bar-title {
@@ -109,7 +108,7 @@ p {
 .genre-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;   
+    gap: 4px;
 
     margin-bottom: 40px;
 }
@@ -122,7 +121,7 @@ p {
     padding: 3px 13px;
 }
 
-.ratings{
+.ratings {
     width: 240px;
     height: 48px;
     overflow: hidden;
@@ -130,15 +129,15 @@ p {
     margin-bottom: 40px;
 }
 
-.star-position{
+.star-position {
     width: 240px;
 }
 
-.member-wrapper{
+.member-wrapper {
     display: flex;
 }
 
-.member{
+.member {
     width: 64px;
     height: 64px;
     margin: -10px;
@@ -146,4 +145,11 @@ p {
     border: #111111 solid 5px;
 
     border-radius: 50%;
+}
+
+@media (max-width:700px) {
+    .main-wrapper {
+        flex-wrap: wrap;
+    }
+
 }
